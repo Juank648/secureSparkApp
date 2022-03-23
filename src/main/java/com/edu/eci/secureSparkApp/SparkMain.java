@@ -9,6 +9,7 @@ public class SparkMain {
         //port(5000);
         port(getPort());
         get("/hello", (req, res) -> "Hello Heroku!!!");
+        //Spark get method
     }
 
     static int getPort() {
